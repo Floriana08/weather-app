@@ -3,37 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
     <title>WeatherApp⛅</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-        <div>
-            <h1>San Francisco</h1></main>
-            <p>Tuesday, 15:19, scattered clouds
-                <br/>
-                Humidity: 66%, Wind: 3.13km/h
-            </p>
-        
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+
+      <main>
+        <div class="temp-details">
+          <h1>San Francisco</h1>
+          <p>
+            Tuesday, 15:19, scattered clouds<br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
         </div>
-        <div>⛅ 12ºC</div>
-      
-    <footer>
-      Coded by
-      <a href="https://github.com/Floriana08" target="_blank">Flor</a>💛 , code
-      hosted on
-      <a href="https://github.com/Floriana08/weather-app" target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a href="https://weather-flor-app.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+        <div class="degrees">⛅ 12ºC</div>
+      </main>
+
+      <footer>
+        Coded by
+        <a href="https://github.com/Floriana08" target="_blank">Flor</a>💛, code
+        hosted on
+        <a href="https://github.com/Floriana08/weather-app" target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a href="https://weather-flor-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
